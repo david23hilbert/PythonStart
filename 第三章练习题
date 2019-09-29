@@ -1,0 +1,69 @@
+#3-4
+comming_list=['david','john','lisa','anthony']
+print('daer '+comming_list[0].title()+' please come to my party!')
+print('daer '+comming_list[1].title()+' please come to my party!')
+print('daer '+comming_list[2].title()+' please come to my party!')
+print('daer '+comming_list[3].title()+' please come to my party!')
+
+#3-5
+comming_list=['david','john','lisa','anthony']
+print('daer '+comming_list[0].title()+' please come to my party!')
+print('daer '+comming_list[1].title()+' please come to my party!')
+print('daer '+comming_list[2].title()+' please come to my party!')
+print(comming_list[3].title()+' cannot come to the party')
+
+comming_list=['david','john','lisa','anthony']
+comming_list.insert(-1,'james')
+del comming_list[-1]
+print('daer '+comming_list[0].title()+' please come to my party!')
+print('daer '+comming_list[1].title()+' please come to my party!')
+print('daer '+comming_list[2].title()+' please come to my party!')
+print('daer '+comming_list[3].title()+' please come to my party!')
+
+#3-6
+comming_list=['david','john','lisa','anthony']
+comming_list.insert(-1,'james')
+del comming_list[-1]
+print('daer '+comming_list[0].title()+' please come to my party!')
+print('daer '+comming_list[1].title()+' please come to my party!')
+print('daer '+comming_list[2].title()+' please come to my party!')
+print('daer '+comming_list[3].title()+' please come to my party!')
+print('fellows I bought a bigger table for more friends.')
+comming_list.insert(0,'lee')
+comming_list.insert(2,'petty')
+comming_list.append('long')
+print('daer '+comming_list[0].title()+' please come to my party!')
+print('daer '+comming_list[2].title()+' please come to my party!')
+print('daer '+comming_list[-1].title()+' please come to my party!')
+
+#3-7
+comming_list=['david','john','lisa','anthony']
+comming_list.insert(-1,'james')
+del comming_list[-1]
+print('daer '+comming_list[0].title()+' please come to my party!')
+print('daer '+comming_list[1].title()+' please come to my party!')
+print('daer '+comming_list[2].title()+' please come to my party!')
+print('daer '+comming_list[3].title()+' please come to my party!')
+print('fellows I bought a bigger table for more friends.')
+comming_list.insert(0,'lee')
+comming_list.insert(2,'petty')
+comming_list.append('long')
+print('daer '+comming_list[0].title()+' please come to my party!')
+print('daer '+comming_list[2].title()+' please come to my party!')
+print('daer '+comming_list[-1].title()+' please come to my party!')
+print('sorry guys beacause of the delay of the table, we can only have 2 friends for the party.')
+a=comming_list.pop()
+print('sorry '+a+' because of the table, the party has to be cancled.')
+b=comming_list.pop()
+print('sorry '+b+' because of the table, the party has to be cancled.')
+c=comming_list.pop()
+print('sorry '+c+' because of the table, the party has to be cancled.')
+d=comming_list.pop()
+print('sorry '+d+' because of the table, the party has to be cancled.')
+e=comming_list.pop()
+print('sorry '+e+' because of the table, the party has to be cancled.')
+print('hi '+comming_list[0]+' you are still welcomed.')
+print('hi '+comming_list[1]+' you are still welcomed.')
+del comming_list[0]
+del comming_list[0]
+print(comming_list)
