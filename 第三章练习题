@@ -67,3 +67,23 @@ print('hi '+comming_list[1]+' you are still welcomed.')
 del comming_list[0]
 del comming_list[0]
 print(comming_list)
+
+#3-8
+willing_place=['chengdu','japan','shantou','guangzhou']
+print(willing_place)
+print(sorted(willing_place))
+print(willing_place)
+print(sorted(willing_place,reverse=True))
+print(willing_place)
+willing_place.reverse()
+print(willing_place)
+willing_place.reverse()
+print(willing_place)
+willing_place.sort()
+print(willing_place)
+willing_place.sort(reverse=True)
+print(willing_place)
+
+#3-9
+comming_list=['david','john','lisa','anthony']
+print(len(comming_list))
