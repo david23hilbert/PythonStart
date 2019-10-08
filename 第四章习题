@@ -1,0 +1,7 @@
+#4-1
+pizzas=['pizza1','pizza2','pizza3']
+for pizza in pizzas:
+    print('i like '+pizza)
+print('i really like pizza.')
+
+range()的起止序号为左闭右开
