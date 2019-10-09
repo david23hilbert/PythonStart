@@ -45,3 +45,32 @@ for value in lists:
 list=[value**3 for value in range(1,11)]
 print(list)
 
+4-10
+pizzas=['pizza1','pizza2','pizza3','pizza4','pizza5','pizza6','pizza7','pizza8','pizza9']
+for pizza in pizzas:
+    print('i like '+pizza)
+print('i really like pizza.\n')
+print('the first 3 items in the list are:\n')
+pizzasf3=pizzas[0:3]
+print(pizzasf3)
+print('the middle 3 items in the list are:\n')
+pizzasm3=pizzas[3:6]
+print(pizzasm3)
+print('the last 3 items in the list are:\n')
+pizzasl3=pizzas[-3:]
+print(pizzasl3)
+
+4-11
+my_pizzas=['pizza1','pizza2','pizza3','pizza4','pizza5','pizza6','pizza7','pizza8','pizza9']
+friend_pizzas=my_pizzas[:]
+my_pizzas.append('pizza10')
+friend_pizzas.append('pizza11')
+print('my favorite pizzas are:\n')
+for value in my_pizzas:
+    print(value)
+print('\nfriend favorite pizzas are:\n')
+for value in friend_pizzas:
+    print(value)
+
+4-12
+知识点同4-11
