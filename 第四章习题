@@ -5,3 +5,43 @@ for pizza in pizzas:
 print('i really like pizza.')
 
 range()的起止序号为左闭右开
+
+#4-3
+for value in range(1,21):
+    print(value)
+    
+#4-4
+lists=[]
+for value in range(1,1000001):
+    list=value
+    lists.append(list)
+    print(value)
+    
+#4-5
+lists=range(1,1000001)
+print(min(lists))
+print(max(lists))
+print(sum(lists))
+
+4-6
+lists=range(1,21,2)
+for value in lists:
+    print(value)
+    
+4-7
+list=range(3,31,3)
+for value in list:
+    print(value)
+    
+4-8
+lists=[]
+for value in range(1,11):
+    list=value**3
+    lists.append(list)
+for value in lists:
+    print(value)
+    
+4-9
+list=[value**3 for value in range(1,11)]
+print(list)
+
