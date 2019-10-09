@@ -74,3 +74,12 @@ for value in friend_pizzas:
 
 4-12
 知识点同4-11
+
+4-13
+food_list=('food1','food2','food3','food4','food5')
+for food in food_list:
+    print(food)
+#food_list[0]='drink'
+food_list=('food1','food2','food3','food4','drink')
+for food in food_list:
+    print(food)
