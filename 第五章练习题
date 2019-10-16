@@ -5,3 +5,85 @@ print(car == 'subaru')
 print("\nIs car == 'audi'? I predict False.")
 print(car == 'audi')
 
+#5-3
+alien_color='green'
+if alien_color=='green':
+    print('green killed, player1 got 5 points!')
+
+alien_color='red'
+if alien_color=='green':
+    print('green killed, player1 got 5 points!')
+    
+#5-4
+alien_color='green'
+if alien_color=='green':
+    print('green killed, player1 got 5 points!')
+else:
+    print('other killed, player1 got 10 points!')
+ 
+alien_color='red'
+if alien_color=='green':
+    print('green killed, player1 got 5 points!')
+else:
+    print('others killed, player1 got 10 points!')
+    
+#5-5
+alien_color='green'
+if alien_color=='green':
+    print('green killed, player1 got 5 points!')
+elif alien_color=='yellow':
+    print('yellow killed, player1 got 10 points!')
+elif alien_color=='red':
+    print('red killed, player1 got 15 points!')
+else:
+    print('others killed, player1 got 10 points!')
+    
+alien_color='yellow'
+if alien_color=='green':
+    print('green killed, player1 got 5 points!')
+elif alien_color=='yellow':
+    print('yellow killed, player1 got 10 points!')
+elif alien_color=='red':
+    print('red killed, player1 got 15 points!')
+else:
+    print('others killed, player1 got 10 points!')
+    
+alien_color='red'
+if alien_color=='green':
+    print('green killed, player1 got 5 points!')
+elif alien_color=='yellow':
+    print('yellow killed, player1 got 10 points!')
+elif alien_color=='red':
+    print('red killed, player1 got 15 points!')
+else:
+    print('others killed, player1 got 10 points!')
+
+#5-6
+age=18
+stage=''
+if age<2:
+    stage='baby'
+elif age>=2 and age<4:
+    stage='walking_learning'
+elif age>=4 and age<13:
+    stage='child'
+elif age>=13 and age<20:
+    stage='teenager'
+elif age>=20 and age<65:
+    stage='adult'
+else:
+    stage='elder'
+print('this person is at the stage of '+stage)
+
+#5-7
+favorite_fruits=['apple','orange','banana']
+if 'apple' in favorite_fruits:
+    print('you really like apple!')
+if 'peach' in favorite_fruits:
+    print('you really like peach!')
+if 'orange' in favorite_fruits:
+    print('you really like orange!')
+if 'banana' in favorite_fruits:
+    print('you really like banana!')
+if 'pear' in favorite_fruits:
+    print('you really like pear!')
