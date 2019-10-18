@@ -8,3 +8,14 @@ information={
 
 print(information)
 
+#6-5
+history_river={'nile':'egypt','changjiang':'china','digelisi':'whatever'}
+for river,contry in history_river.items():
+    print('the ' + river + ' runs through ' + contry)
+    
+for river1 in set(history_river.keys()):
+    print(river1)
+    
+for contry1 in set(history_river.values()):
+    print(contry1)
+    
