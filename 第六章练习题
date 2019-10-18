@@ -1,0 +1,10 @@
+#6-1
+information={
+        'first name':'david',
+        'last name':'hilbert',
+        'age':'25',
+        'city':'shen_zhen'
+        }
+
+print(information)
+
