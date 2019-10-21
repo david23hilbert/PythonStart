@@ -19,3 +19,67 @@ for river1 in set(history_river.keys()):
 for contry1 in set(history_river.values()):
     print(contry1)
     
+#6-7
+david_information={
+        'first name':'david',
+        'last name':'hilbert',
+        'age':'25',
+        'city':'shen_zhen'
+        }
+
+john_information={
+        'first name':'john',
+        'last name':'smith',
+        'age':'15',
+        'city':'tokyo'
+        }
+
+dell_information={
+        'first name':'dell',
+        'last name':'moon',
+        'age':'45',
+        'city':'newjersy'
+        }
+
+informations=[]
+informations.append(david_information)
+informations.append(john_information)
+informations.append(dell_information)
+
+for information in informations:
+    for key,value in information.items():
+        print('\n' + key + ':' + value)
+    print('\n')
+    
+#6-8
+pet1_information={
+        'type':'dog',
+        'name':'nick',
+        'age':'2',
+        'owner':'david'
+        }
+
+pet2_information={
+        'type':'cat',
+        'name':'alice',
+        'age':'1',
+        'owner':'ben'
+        }
+
+pet3_information={
+        'type':'snake',
+        'name':'dave',
+        'age':'0.5',
+        'owner':'frank'
+        }
+
+informations=[]
+informations.append(pet1_information)
+informations.append(pet2_information)
+informations.append(pet3_information)
+
+for pet in informations:
+    for pet_key,pet_value in pet.items():
+        print('\n' + pet_key + ':' + pet_value)
+    print('\n')
+    
