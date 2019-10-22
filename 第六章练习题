@@ -83,3 +83,24 @@ for pet in informations:
         print('\n' + pet_key + ':' + pet_value)
     print('\n')
     
+#6-9
+favorite_places={}
+favorite_places['david']=['chengdu','xiamen','xinjiang']
+favorite_places['ben']=['tokyo','san diago']
+favorite_places['raul']=['madrid']
+for name,places in favorite_places.items():
+    print('\nname: ' + name)
+    print('places:')
+    for place in places:
+        print(place)
+        
+#6-11
+favorite_places={}
+favorite_places['chengdu']={'country':'china','population':'25m','fact':'delicious'}
+favorite_places['shenzhen']={'country':'china','population':'60m','fact':'rich'}
+favorite_places['tokyo']={'country':'japan','population':'100m','fact':'none'}
+for city,charactor in favorite_places.items():
+    print('\ncity: ' + city)
+    print('charactors:')
+    for key,value in charactor.items():
+        print(key + ':' + value)
