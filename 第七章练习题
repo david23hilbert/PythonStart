@@ -1,1 +1,21 @@
 
+#7-1
+car=input('what car do you want?\n')
+print('let me see if i can find you a ' + car)
+
+#7-2
+num=input('how many people do you have?\n')
+num=int(num)
+if num>8:
+    print('sorry, there are no more free table.')
+else:
+    print('please this way.')
+    
+#7-3
+num=input('please input a number:\n')
+num=int(num)
+if num % 10==0:
+    print('it can be divided by 10.')
+else:
+    print('it can not divided by 10.')
+    
