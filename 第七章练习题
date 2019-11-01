@@ -19,3 +19,13 @@ if num % 10==0:
 else:
     print('it can not divided by 10.')
     
+#7-4
+promote = 'welcome to pizza-hut!'
+promote += '\nwhat do you want to order?\n'
+
+order = ''
+while order != 'quit':
+    order = input(promote)
+    if order != 'quit':
+        print('you have ordered ' + order)
+        
