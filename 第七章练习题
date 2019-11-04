@@ -29,3 +29,46 @@ while order != 'quit':
     if order != 'quit':
         print('you have ordered ' + order)
         
+#7-5
+promote = 'how old are you?'
+promote += '\nthis will decide which kind of ticket you should buy\n'
+
+
+age = ''
+while age != 'quit' :
+    age = input(promote)
+    if age != 'quit':
+        age = int(age)
+        if age < 3:
+            print('free!')
+        elif age >= 3 and age < 12:
+            print('you should order a $10 ticket!')
+        else:
+            print('you should order a $15 ticket!')
+            
+#7-6
+promote = 'how old are you?'
+promote += '\nthis will decide which kind of ticket you should buy\n'
+
+age = ''
+while True:
+    age = input(promote)
+    if age == 'quit':
+        break
+    else:
+        age = int(age)
+        if age < 3:
+            print('free!')
+        elif age >= 3 and age < 12:
+            print('you should order a $10 ticket!')
+        else:
+            print('you should order a $15 ticket!')
+            
+#7-7
+age = ''
+age = 1
+age = int(age)
+while True:
+    print(age)
+    age = age + 1
+    
