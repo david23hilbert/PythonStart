@@ -84,3 +84,29 @@ while sandwich_orders:
 for sandwiches in finished_sandwiches:
     print(sandwiches + 'has been made successfully!')
     
+#7-9
+sandwich_orders=['pastrami','sandw1','sandw2','pastrami','sandw3','sandw4','pastrami']
+print('the pastrami has been sold out.')
+
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
+    
+print(sandwich_orders)
+
+#7-10
+dream_places = {}
+jump_out_flag = True
+while jump_out_flag:
+    promote1 = 'what is your name?\n'
+    name = input(promote1)
+    promote2 = '\nIf you could visit one place in the world, where would you go?\n'
+    place = input(promote2)
+    dream_places[name] = place
+    flag = input('does anyone want to continue to key in informations? (yes/no)\n')
+    if flag == 'yes':
+        jump_out_flag = True
+    else:
+        jump_out_flag = False
+        
+for name,place in dream_places.items():
+    print(name + ' want to go to ' + place)
