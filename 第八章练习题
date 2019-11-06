@@ -1,0 +1,13 @@
+#8-1
+def display_message():
+    print('learn how to use function.')
+    
+display_message()
+
+#8-2
+def favorite_book(book):
+    print('one of my favorite book is: \n' + book)
+    
+favorite_book('Alice In Wonderland')
+
+#8-3
