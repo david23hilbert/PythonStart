@@ -11,3 +11,30 @@ def favorite_book(book):
 favorite_book('Alice In Wonderland')
 
 #8-3
+def make_shirt(size,sign):
+    print('the size of the shirt you ordered is: \n' + size)
+    print('the size of the shirt you ordered is: \n' + sign)
+    
+make_shirt('xxl','bingo')
+
+make_shirt(size = 'xxl' , sign = 'bingo')
+
+#8-4
+def make_shirt(size='l',sign='i love python'):
+    print('the size of the shirt you ordered is: \n' + size)
+    print('the size of the shirt you ordered is: \n' + sign)
+    
+make_shirt()
+
+make_shirt('m')
+
+make_shirt('xxl','django')
+
+#8-5
+def describe_city(city , country='china'):
+    print(city + ' is in ' + country)
+    
+describe_city('shenzhen')
+describe_city('tokyo','japan')
+describe_city('soul','south korea')
+
