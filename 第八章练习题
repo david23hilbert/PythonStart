@@ -38,3 +38,65 @@ describe_city('shenzhen')
 describe_city('tokyo','japan')
 describe_city('soul','south korea')
 
+#8-6
+def city_country(city , country):
+    print(city + ', ' + country)
+    
+while True:
+    city1=input('please input your city:\n')
+    if city1 == 'quit':
+        break
+    country1=input('please input your country:\n')
+    if country1 == 'quit':
+        break
+    city_country(city1,country1)
+    
+#8-7
+def make_album(singer , name):
+    singer1 = singer
+    name1 = name
+    album_info = {'singer':singer1,'name':name1}
+    return album_info
+
+information = make_album('jay','NOV')
+print(information)
+
+def make_album1(singer , name , num=''):
+    singer1 = singer
+    name1 = name
+    num1 = num
+    if num:
+        album_info1 = {'singer':singer1,'name':name1,'number':num1}
+    else:
+        album_info1 = {'singer':singer1,'name':name1}
+    return album_info1
+
+information1 = make_album1('jay','SEV')
+print(information1)
+
+information2 = make_album1('jay','SEV','15')
+print(information2)
+
+#8-8
+def make_album1(singer , name , num=''):
+    singer1 = singer
+    name1 = name
+    num1 = num
+    if num:
+        album_info1 = {'singer':singer1,'name':name1,'number':num1}
+    else:
+        album_info1 = {'singer':singer1,'name':name1}
+    return album_info1
+
+while True:
+    singer0 = input('please input the name of singer:\n')
+    if singer0 == 'quit':
+        break
+    name0 = input('please input the name of album:\n')
+    if name0 == 'quit':
+        break
+    num0 = input('please input the number of songs in the album(can be null):\n')
+    if num0 == 'quit':
+        break
+    information0 = make_album1(singer0,name0,num0)
+    print(information0)
